@@ -27,7 +27,8 @@ class Server
                     + "3 - Pedra-Papel-Tesoura\n");
             writer.flush();
             String data1 = reader.readLine().trim();
- 
+   
+            
             int opcaoJogo=Integer.parseInt(data1);
             String respostaOpcaoJogo = "Numero invalido!";
  
